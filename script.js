@@ -1,5 +1,6 @@
-function BMI (weight = 60 ,height = 160){
-    return (height*height)/weight;
+function BMI (weight = 60 ,height = 1.60){
+    return weight/(height*height);
 }
 console.log(BMI())
+
 
